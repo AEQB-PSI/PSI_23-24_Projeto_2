@@ -41,8 +41,8 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
   * Campos númericos são do tipo **int**
   * Campos com valores *True* ou *False* são representados pelo tipo **bool**
   * Campos de texto devem ser guardados como **string**
-  * Campos que contenham uma data devem usar (DateTime)[https://learn.microsoft.com/pt-pt/dotnet/api/system.datetime?view=net-8.0]
-  * Campos com endereços URL devem usar a classe (Uri)[https://learn.microsoft.com/pt-pt/dotnet/api/system.uri?view=net-8.0]
+  * Campos que contenham uma data devem usar [DateTime](https://learn.microsoft.com/pt-pt/dotnet/api/system.datetime?view=net-8.0)
+  * Campos com endereços URL devem usar a classe [Uri](https://learn.microsoft.com/pt-pt/dotnet/api/system.uri?view=net-8.0)
 - Após a leitura e validação do ficheiro, o menu principal do programa deve conter as seguintes opções:
   1. Efetuar uma pesquisa
   2. Mostrar informação de um jogo
