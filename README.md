@@ -1,4 +1,4 @@
-# Projeto 1 de Programação e Sistemas de Informação
+# Projeto 2 de Programação e Sistemas de Informação
 
 Objetivo: Criar um programa para manipular e analisar uma série de dados sobre jogos da plataforma Steam.
 
