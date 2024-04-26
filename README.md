@@ -2,7 +2,7 @@
 
 Objetivo: Criar um programa para manipular e analisar uma série de dados sobre jogos da plataforma Steam.
 
-O programa deve ler um ficheiro CSV (*comma-separated values*). Está disponível neste repositório o ficheiro (jogos.csv)[jogos.csv], que devem usar para testar o projeto. Este ficheiro contém uma série de campos com informação sobre videojogos disponíveis na Steam, nomeadamente:
+O programa deve ler um ficheiro CSV (*comma-separated values*). Está disponível neste repositório o ficheiro [jogos.csv](jogos.csv), que devem usar para testar o projeto. Este ficheiro contém uma série de campos com informação sobre videojogos disponíveis na Steam, nomeadamente:
 
 *   **ID** - ID do jogo
 *   **Name** - Nome do jogo
