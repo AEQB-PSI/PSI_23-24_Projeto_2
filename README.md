@@ -38,30 +38,30 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
 
 -  O nome do ficheiro deve ser dado como 1º argumento na linha de comandos. Antes do programa propriamente dito começar, é preciso validar este ficheiro. Caso seja inválido, deve ser apresentada uma mensagem de erro apropriada, após a qual o programa termina. Se o ficheiro for válido, o programa pode prosseguir, lendo o mesmo.
 -  Durante a leitura do ficheiro, cada linha deve corresponder à instanciação de um objeto do tipo **Jogo**, que deve ser guardado numa coleção contendo todos os jogos listados. A classe **Jogo** deve ter todos os campos presentes no ficheiro CSV:
-  * Campos númericos são do tipo **int**
-  * Campos com valores *True* ou *False* são representados pelo tipo **bool**
-  * Campos de texto devem ser guardados como **string**
-  * Campos que contenham uma data devem usar [DateTime](https://learn.microsoft.com/pt-pt/dotnet/api/system.datetime?view=net-8.0)
-  * Campos com endereços URL devem usar a classe [Uri](https://learn.microsoft.com/pt-pt/dotnet/api/system.uri?view=net-8.0)
+   * Campos númericos são do tipo **int**
+   * Campos com valores *True* ou *False* são representados pelo tipo **bool**
+   * Campos de texto devem ser guardados como **string**
+   * Campos que contenham uma data devem usar [DateTime](https://learn.microsoft.com/pt-pt/dotnet/api/system.datetime?view=net-8.0)
+   * Campos com endereços URL devem usar a classe [Uri](https://learn.microsoft.com/pt-pt/dotnet/api/system.uri?view=net-8.0)
 - Após a leitura e validação do ficheiro, o menu principal do programa deve conter as seguintes opções:
-  1. Efetuar uma pesquisa
-  2. Mostrar informação de um jogo
-  3. Sair
-- Se o utilizador selecionar a opção 1, deverão surgir as seguintes opções:
-  1. Indicar critério de ordenação
-  3. Realizar pesquisa
-  4. Voltar
-- Se o utilizador selecionar a opção 1, devem ser disponibilizados os seguintes critérios:
-  *   Por ID (ascendente)
-  *   Por nome (ascendente, por ordem alfabética)
-  *   Por data de lançamento (descendente, do mais recente para o mais antigo)
-  *   Por número de DLCs (descendente)
-  *   Por nota no Metacritic (descendente)
-  *   Por número de recomendações (descendente)
-  *   Por número de pessoas que têm o jogo (descendente)
-  *   Por número de pessoas que efetivamente jogaram ao jogo (descendente)
-  *   Por número de *achievements* (descendente)
-- Por omissão, a ordenação é feita por ID. Após especificado o critério de ordenação, o programa deve voltar ao menu anterior.
+   1. Efetuar uma pesquisa
+      - Se o utilizador selecionar esta opção, deverão surgir as seguintes opções:
+         1. Indicar critério de ordenação
+            - Se o utilizador selecionar esta opção, devem ser disponibilizados os seguintes critérios:
+               1. Por ID (ascendente)
+               2. Por nome (ascendente, por ordem alfabética)
+               3. Por data de lançamento (descendente, do mais recente para o mais antigo)
+               4. Por número de DLCs (descendente)
+               5. Por nota no Metacritic (descendente)
+               6. Por número de recomendações (descendente)
+               7. Por número de pessoas que têm o jogo (descendente)
+               8. Por número de pessoas que efetivamente jogaram ao jogo (descendente)
+               9. Por número de *achievements* (descendente)
+            - Por omissão, a ordenação é feita por ID. Após especificado o critério de ordenação, o programa deve voltar ao menu anterior.
+         2. Realizar pesquisa
+         4. Voltar
+   2. Mostrar informação de um jogo
+   3. Sair
 
 ## Passo 2: Mostrar informação de um jogo (5v)
 
@@ -69,11 +69,15 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
 
 ## Passo 3: Diagrama UML (5v)
 
-- 
+- Completo (classes com variáveis de instância, propriedades e métodos).
+- Deve incluir relações apropriadas, representadas por setas, e cardinalidade.
+- Guardar o diagrama em modo LFS.
 
 ## Passo 4: Relatório (5v)
 
-- 
+- Descrição breve do funcionamento do programa.
+- Caso o trabalho tenha sido feito em grupo, deve ser indicado o que cada membro fez.
+- Deve conter o diagrama, assim como *links* para referências usadas.
 
 ## Passo Extra: Seguir o padrão MVC (5v) 
 
@@ -91,4 +95,4 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
   - Solução do projeto
   - Ficheiro README.md com identificação dos alunos e relatório
   - Imagem com diagrama UML do projeto
-- Data limite: 
+- Data limite: **10/05/2024**
