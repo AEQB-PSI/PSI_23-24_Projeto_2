@@ -34,7 +34,7 @@ O programa deve ler um ficheiro CSV (*comma-separated values*). Está disponíve
 
 Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indica o nome dos campos (cabeçalho).
 
-## Passo 1: Iniciar o programa e efetuar pesquisas (5v)
+## Passo 1: Iniciar o programa e efetuar pesquisas (10v)
 
 -  O nome do ficheiro deve ser dado como 1º argumento na linha de comandos. Antes do programa propriamente dito começar, é preciso validar este ficheiro. Caso seja inválido, deve ser apresentada uma mensagem de erro apropriada, após a qual o programa termina. Se o ficheiro for válido, o programa pode prosseguir, lendo o mesmo.
 -  Durante a leitura do ficheiro, cada linha deve corresponder à instanciação de um objeto do tipo **Jogo**, que deve ser guardado numa coleção contendo todos os jogos listados. A classe **Jogo** deve ter todos os campos presentes no ficheiro CSV:
@@ -58,22 +58,36 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
                8. Por número de pessoas que efetivamente jogaram ao jogo (descendente)
                9. Por número de *achievements* (descendente)
             - Por omissão, a ordenação é feita por ID. Após especificado o critério de ordenação, o programa deve voltar ao menu anterior.
-         2. Realizar pesquisa
-         4. Voltar
-   2. Mostrar informação de um jogo
-   3. Sair
+         2. Indicar critérios de filtragem
+            - Se o utilizador selecionar esta opção, ser-lhe-à apresentado um menu com vários filtros de pesquisa:
+               1. Nome (independente de maiúsculas ou minúsculas)
+               2. Data (a partir de)
+               3. Idade (maior que)
+               4. Nota no Metacritic (maior que)
+               5. Número de recomendações (maior que)
+               6. Suporte de controlador (se for *true*)
+               7. Suporte para Windows (se for *true*)
+               8. Suporte para Linux (se for *true*)
+               9. Suporte para Mac (se for *true*)
+               10. Suporte para *singleplayer* (se for *true*)
+               11. Suporte para *multiplayer* (se for *true*)
+               12. Suporte para *multiplayer* cooperativo (se for *true*)
+               13. Inclusão de editor de níveis (se for *true*)
+               14. Suporte para VR (se for *true*)
+            - Estes filtros podem ser usados em conjunto. Sendo selecionados um de cada vez.
+         3. Voltar
+   2. Realizar pesquisa
+      - Esta opção inicia a pesquisa com o critério de ordenação especificado e com os filtros selecionados.
+      - Devem ser apresentados apenas alguns jogos de cada vez (por exemplo, 20), sendo necessário que o utilizador pressione uma tecla para ver os jogos seguintes.
+   4. Sair
 
-## Passo 2: Mostrar informação de um jogo (5v)
-
-- 
-
-## Passo 3: Diagrama UML (5v)
+## Passo 2: Diagrama UML (5v)
 
 - Completo (classes com variáveis de instância, propriedades e métodos).
 - Deve incluir relações apropriadas, representadas por setas, e cardinalidade.
 - Guardar o diagrama em modo LFS.
 
-## Passo 4: Relatório (5v)
+## Passo 3: Relatório (5v)
 
 - Descrição breve do funcionamento do programa.
 - Caso o trabalho tenha sido feito em grupo, deve ser indicado o que cada membro fez.
