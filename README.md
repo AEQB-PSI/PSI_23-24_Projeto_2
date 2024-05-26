@@ -34,7 +34,7 @@ O programa deve ler um ficheiro CSV (*comma-separated values*). Está disponíve
 
 Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indica o nome dos campos (cabeçalho).
 
-## Passo 1: Iniciar o programa e efetuar pesquisas (10v)
+## Passo 1: Iniciar o programa e efetuar pesquisas (Módulo 14 - 10v)
 
 -  O nome do ficheiro deve ser dado como 1º argumento na linha de comandos. Antes do programa propriamente dito começar, é preciso validar este ficheiro. Caso seja inválido, deve ser apresentada uma mensagem de erro apropriada, após a qual o programa termina. Se o ficheiro for válido, o programa pode prosseguir, lendo o mesmo.
 -  Durante a leitura do ficheiro, cada linha deve corresponder à instanciação de um objeto do tipo **Jogo**, que deve ser guardado numa coleção contendo todos os jogos listados. A classe **Jogo** deve ter todos os campos presentes no ficheiro CSV:
@@ -81,14 +81,27 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
       - Devem ser apresentados apenas alguns jogos de cada vez (por exemplo, 20), sendo necessário que o utilizador pressione uma tecla para ver os jogos seguintes.
    4. Sair
 
-## Passo 2: Diagrama UML (5v)
+## Passo 2: (Módulo 15 - 10v)
 
+- Após darem por terminado o passo 1, devem criar um novo **branch**, no qual irão realizar este passo.
+- Durante a leitura do ficheiro, devem ser ignorados jogos duplicados. Jogos são considerados duplicados se tiverem o mesmo ID que um jogo que surgiu previamente na lista.
+- Para além de serem ignorados jogos duplicados na coleção onde os mesmos são guardados, deve ser criado um novo ficheiro CSV sem jogos duplicados.
+- O diretório do ficheiro CSV a ser criado deve ser dado como 2º argumento na linha de comandos.
+
+## Passo 3 (Módulo 16 - 10v)
+
+- Inicia dia 31/05
+
+## Passo 4: Diagrama UML (5v)
+
+- Para cada módulo (passos 2, 3, 4), o diagrama deve ser atualizado
 - Completo (classes com variáveis de instância, propriedades e métodos).
 - Deve incluir relações apropriadas, representadas por setas, e cardinalidade.
 - Guardar o diagrama em modo LFS.
 
-## Passo 3: Relatório (5v)
+## Passo 5: Relatório (5v)
 
+- Para cada módulo (passos 2, 3, 4) o relatório deve ser atualizado
 - Descrição breve do funcionamento do programa.
 - Caso o trabalho tenha sido feito em grupo, deve ser indicado o que cada membro fez.
 - Deve conter o diagrama, assim como *links* para referências usadas.
@@ -109,4 +122,4 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
   - Solução do projeto
   - Ficheiro README.md com identificação dos alunos e relatório
   - Imagem com diagrama UML do projeto
-- Data limite: **10/05/2024**
+- Data limite: **05/06/2024**
