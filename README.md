@@ -81,7 +81,7 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
       - Devem ser apresentados apenas alguns jogos de cada vez (por exemplo, 20), sendo necessário que o utilizador pressione uma tecla para ver os jogos seguintes.
    4. Sair
 
-## Passo 2: (Módulo 15 - 10v)
+## Passo 2: Detetar jogos duplicados e criar um novo ficheiro (Módulo 15 - 10v)
 
 - Após darem por terminado o passo 1, devem criar um novo **branch**, no qual irão realizar este passo.
 - Durante a leitura do ficheiro, devem ser ignorados jogos duplicados. Jogos são considerados duplicados se tiverem o mesmo ID que um jogo que surgiu previamente na lista.
