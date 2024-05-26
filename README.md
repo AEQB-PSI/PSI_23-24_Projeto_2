@@ -90,26 +90,27 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
 
 ## Passo 3 (Módulo 16 - 10v)
 
-- Inicia dia 31/05
+- Inicia dia 31/05.
 
 ## Passo 4: Diagrama UML (5v)
 
-- Para cada módulo (passos 2, 3, 4), o diagrama deve ser atualizado
-- Completo (classes com variáveis de instância, propriedades e métodos).
+- Diagrama deve ser completo (classes com variáveis de instância, propriedades e métodos).
 - Deve incluir relações apropriadas, representadas por setas, e cardinalidade.
 - Guardar o diagrama em modo LFS.
+- No fim de cada módulo (passos 1, 2, 3), o diagrama deve ser atualizado.
 
 ## Passo 5: Relatório (5v)
 
-- Para cada módulo (passos 2, 3, 4) o relatório deve ser atualizado
 - Descrição breve do funcionamento do programa.
 - Caso o trabalho tenha sido feito em grupo, deve ser indicado o que cada membro fez.
 - Deve conter o diagrama, assim como *links* para referências usadas.
+- No fim de cada módulo (passos 1, 2, 3), o relatório deve ser atualizado.
 
 ## Passo Extra: Seguir o padrão MVC (5v) 
 
 - É preferível seguirem este padrão desde o início do desenvolvimento do projeto, mas podem adaptar o código, se decidirem realizar este passo mais tarde.
 - Podem resolver o exercício 4 da aula 10 para praticar.
+- No fim de cada módulo (passos 1, 2, 3), será valorizada a implementação correta deste padrão, em relação ao código adicionado.
 
 ## Entrega
 
