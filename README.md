@@ -88,9 +88,11 @@ Cada linha do ficheiro corresponde a um jogo, exceto a primeira linha, que indic
 - Para além de serem ignorados jogos duplicados na coleção onde os mesmos são guardados, deve ser criado um novo ficheiro CSV sem jogos duplicados.
 - O diretório do ficheiro CSV a ser criado deve ser dado como 2º argumento na linha de comandos.
 
-## Passo 3 (Módulo 16 - 10v)
+## Passo 3: Adicionar novos jogos (Módulo 16 - 10v)
 
-- Inicia dia 31/05.
+- Deve ser adicionada uma nova opção ao menu principal, intitulada "Adicionar um jogo"
+- Ao selecionar esta opção, o utilizador deve preencher a informação referente a cada propriedade que um jogo tem.
+- O programa deve lidar com quaisquer erros que possam surgir durante este processo. Ou seja, mesmo se forem inseridos dados inválidos, o jogo deve ser guardado na coleção.
 
 ## Passo 4: Diagrama UML (5v)
 
